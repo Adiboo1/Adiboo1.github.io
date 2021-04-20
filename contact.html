@@ -36,9 +36,33 @@
 
 	  <div class="pageContent">
 
+      <h1>Contact</h1>
 
-	  	<h1>Page not available right now.</h1>
+      <h2>If you would like to send me a message, please send an email to me via alexmatthews555@gmail.com or use the form below:</h2> 
 
+
+	  	<div class="contactForm">
+        <form action="/action_page.php">
+
+          <label for="country">Reason for Message</label>
+          <select id="country" name="country">
+            <option value="australia">Work</option>
+            <option value="canada">Personal</option>
+            <option value="usa">Other</option>
+          </select>
+
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="The name you want to be addressed as..">
+
+          <label for="lname">Email Address</label>
+          <input type="text" id="lname" name="lastname" placeholder="The one you would like me to send my response to..">
+
+          <label for="fname">Message</label>
+          <input type="text" id="fname" name="firstname" placeholder="What would you like to say..">
+        
+          <!-- <input type="submit" value="Submit"> -->
+        </form>
+      </div>
     </div>
 
 
