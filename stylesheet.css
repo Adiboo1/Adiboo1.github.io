@@ -37,13 +37,14 @@ h3 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .navbar li {
   float: left;
   width: 25%;
+  min-width:100px;
 }
 
 .navbar li a {
