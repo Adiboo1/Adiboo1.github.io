@@ -176,3 +176,15 @@ footer {
     column-count:         1;
    }
 }
+
+
+#pdf {
+		height: 100%;
+		width: 120%;
+		margin-left: -10%;
+}
+
+#cv {
+	height: 700px;
+	width: 100%;
+}
