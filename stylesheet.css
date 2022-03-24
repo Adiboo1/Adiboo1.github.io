@@ -5,6 +5,7 @@ body {
 	margin-bottom: 50px;
 	font-family: Helvetica;
 	background-color: #f2f2f2;
+	overflow-x: hidden;
 }
 
 h1 {
@@ -107,18 +108,13 @@ h3 {
 .pageContent {
 	vertical-align: center;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 30px;
 	font-size:120%;
 	min-height: 500px;
 	width: 60%;
 	margin:;
 	margin-left: 20%;
-}
-
-
-#intro {
-
-
+	height: 100wh;
 }
 
 footer {
@@ -190,13 +186,35 @@ footer {
 }
 
 #profile {
-	border-radius: 50%;
-	height: 100px;
+	height: auto;
 	width: 100%;
 }
 
 #profile img {
-   width: 100% !important;
+   width: 25% !important;
    height: auto !important;
-   margin-bottom:5px; /* to match column gap */
+   border-radius: 50%;
+   padding-bottom: 1%;
+}
+
+#intro {
+	width: 80%;
+	height:  100%;
+	margin-left: 0%;
+	background-color: ;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 10%;
+	padding-left: 10%;
+	text-align: center;
+}
+
+#intro p {
+	width: 100%;
+	align-content: center;
+}
+
+#intro h1 {
+	width: 100%;
+	align-content: center;
 }
